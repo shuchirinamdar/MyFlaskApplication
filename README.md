@@ -1,23 +1,8 @@
 #Flask Foundation
-[![Build Status](https://travis-ci.org/JackStouffer/Flask-Foundation.png)](https://travis-ci.org/JackStouffer/Flask-Foundation)
-
-Documentation is located at [https://jackstouffer.github.io/Flask-Foundation/](https://jackstouffer.github.io/Flask-Foundation/)
 
 Flask Foundation is a solid foundation for flask applications, built with best practices, that you can easily construct your website/webapp off of. Flask Foundation is different from most Flask frameworks as it does not assume anything about your development or production environments. Flask Foundation is platform agnostic in this respect.
 
-Built off of the [bootstrapy project](https://github.com/kirang89/bootstrapy)
-
-Best practices were learned from:
-* [Creating Websites With Flask](http://maximebf.com/blog/2012/10/building-websites-in-python-with-flask/)
-* [Getting Bigger With Flask](http://maximebf.com/blog/2012/11/getting-bigger-with-flask/)
-* [Larger Applications With Flask](http://flask.pocoo.org/docs/patterns/packages/).
-
-## License
-
-Flask-Foundation is licensed under the BSD license. For more info see LICENSE.md
-
-# Want to learn more about Flask?
-
-I also wrote a book on Flask! You can order it [here](https://www.packtpub.com/web-development/mastering-flask).
-"# MyFlaskApplication" 
-"# MyFlaskApplication" 
+Develop a flask application using Flask Foundation template (hint: use cookiecutter, db can be either mysql/postgres) with the following features:
+1. Email admin(random hard coded email is fine) every time user logs in using async task queue with IP of the user. Free to use email api like mandrill or sparkpost API instead of using a mail server or use gmail SMTP and log this data on db.
+Plot various kinds of charts using the data that you stored in point a. and serve it on homepage(use D3/C3, google charts, its fine to use highcharts but refrain from using it).
+Bonus points for using frontend MVC like Angular/React or backbone but not required.
